@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 5px;
+}
+
+body{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 90%;
+    max-width: 1200px;
+}
+
+#message-container{
+    border: 0.44em solid black;
+    height: 70em;
+    overflow-y: scroll;
+}
+
+p{
+    background-color: khaki;
+    width: fit-content;
+    font-weight: bolder;
+    margin-bottom: 2em;
+    text-align: center;
+    font-size: 10em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#para1{
+
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+form{
+    width: 100%;
+    display: block;
+}
+
+form > div{
+    margin-top: 3em;
+    display: flex;
+}
+
+form > div > input{
+    width: 59em;
+    padding-left: 0.4em;
+}
+
+form > div > button{
+    margin-left: 0.1em;
+    padding: 0 2em;
+    cursor: pointer;
+    background-color: khaki;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form > div > label, input, button{
+    font-size: 3.4em;
+    
+}
+
+form > div > label{
+    margin-right: 0.9em;
+    font-weight: bold;
+}
+
+
